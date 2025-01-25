@@ -1,0 +1,5 @@
+{
+  "name": "tandoor",
+  "iot_class": "Cloud Polling",
+  "homeassistant": "2021.12.1"
+}
