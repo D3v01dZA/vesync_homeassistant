@@ -1,5 +1,7 @@
 {
   "name": "tandoor",
+  "domains": ["sensor"],
   "iot_class": "Cloud Polling",
+  "render_readme": false,
   "homeassistant": "2021.12.1"
 }
