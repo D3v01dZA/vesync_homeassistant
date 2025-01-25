@@ -132,9 +132,7 @@ class VeSyncHumidifierHA(VeSyncBaseEntity, HumidifierEntity):
     @property
     def target_humidity(self) -> int:
         """Return the humidity we try to reach."""
-        properties = self.device.config.keys()
-        _LOGGER.warning(f'Props: {properties}')
-        return 0
+        return self.device.config['target_humidity']
 
     @property
     def mode(self) -> str | None:
