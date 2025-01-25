@@ -13,5 +13,6 @@
   "iot_class": "cloud_polling",
   "loggers": ["pyvesync"],
   "requirements": ["pyvesync==2.1.15"],
+  "issue_tracker": "https://github.com/D3v01dZA/vesync_homeassistant/issues",
   "version": "2.0.0"
 }
